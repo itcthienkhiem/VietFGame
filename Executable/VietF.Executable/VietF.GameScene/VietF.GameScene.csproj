@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3C9F86D0-3DF3-4AA9-A288-2240C6430020}</ProjectGuid>
+    <ProjectGuid>{70FC4996-2302-40E8-A306-742655E7AE8F}</ProjectGuid>
     <WaveEngineProject>{196BC63C-5C01-4C02-9F24-E720CA3AD406}</WaveEngineProject>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VietF.Menu</RootNamespace>
-    <AssemblyName>VietF.Menu</AssemblyName>
+    <RootNamespace>VietF.GameScene</RootNamespace>
+    <AssemblyName>VietF.GameScene</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -46,13 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuScene.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Executable\VietF.Executable\VietF.GameScene\VietF.GameScene.csproj">
-      <Project>{70fc4996-2302-40e8-a306-742655e7ae8f}</Project>
-      <Name>VietF.GameScene</Name>
-    </ProjectReference>
+    <Compile Include="GameScene.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
