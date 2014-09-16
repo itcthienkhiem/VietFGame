@@ -34,7 +34,7 @@ namespace VietF.ExecutableProject
                 .AddComponent(new ModelRenderer());
 
             EntityManager.Add(cube);
-          //  VietF.Menu.Menu menu = new Menu.Menu(this.EntityManager);
+            VietF.Menu.Menu menu = new Menu.Menu(this.EntityManager);
             // Create a 2D camera
             //var camera2D = new FixedCamera2D("Camera2D") { ClearFlags = ClearFlags.DepthAndStencil }; // Transparent background need this clearFlags.
             //EntityManager.Add(camera2D);

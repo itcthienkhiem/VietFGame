@@ -46,13 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuScene.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Executable\VietF.Executable\VietF.GameScene\VietF.GameScene.csproj">
-      <Project>{70fc4996-2302-40e8-a306-742655e7ae8f}</Project>
-      <Name>VietF.GameScene</Name>
-    </ProjectReference>
+    <Compile Include="Menu.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

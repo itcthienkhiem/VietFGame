@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietF.Common", "..\..\Commo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietF.Menu", "..\..\Menu\VietF.Menu\VietF.Menu.csproj", "{3C9F86D0-3DF3-4AA9-A288-2240C6430020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietF.GameScene", "VietF.GameScene\VietF.GameScene.csproj", "{70FC4996-2302-40E8-A306-742655E7AE8F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -35,10 +33,6 @@ Global
 		{3C9F86D0-3DF3-4AA9-A288-2240C6430020}.Debug|x86.Build.0 = Debug|x86
 		{3C9F86D0-3DF3-4AA9-A288-2240C6430020}.Release|x86.ActiveCfg = Release|x86
 		{3C9F86D0-3DF3-4AA9-A288-2240C6430020}.Release|x86.Build.0 = Release|x86
-		{70FC4996-2302-40E8-A306-742655E7AE8F}.Debug|x86.ActiveCfg = Debug|x86
-		{70FC4996-2302-40E8-A306-742655E7AE8F}.Debug|x86.Build.0 = Debug|x86
-		{70FC4996-2302-40E8-A306-742655E7AE8F}.Release|x86.ActiveCfg = Release|x86
-		{70FC4996-2302-40E8-A306-742655E7AE8F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
