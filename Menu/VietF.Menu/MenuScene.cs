@@ -99,6 +99,7 @@ namespace VietF.Menu
         {
             ScreenContext screenContext = new ScreenContext(new VietF.GameScene.GameScene())
             {
+                
                 Name = "FromSingleplayer",
             };
             WaveServices.ScreenContextManager.To(screenContext);

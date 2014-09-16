@@ -14,9 +14,13 @@ namespace VietF.GameScene
         {
             base.Start();
         }
+
         protected override void CreateScene()
         {
-            throw new NotImplementedException();
+            if (WaveServices.ScreenContextManager.CurrentContext.Name == "FromMultiplayer")
+            { 
+                
+            }
         }
     }
 }
