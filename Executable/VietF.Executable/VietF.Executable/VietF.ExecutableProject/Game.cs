@@ -18,7 +18,7 @@ namespace VietF.ExecutableProject
             ViewportManager vm = WaveServices.ViewportManager;
             vm.Activate(1280, 720, ViewportManager.StretchMode.Uniform);
 
-            ScreenContext screenContext = new ScreenContext(new MyScene());
+            ScreenContext screenContext = new ScreenContext(new VietF.Menu.MenuScene());
             WaveServices.ScreenContextManager.To(screenContext);
         }
     }
