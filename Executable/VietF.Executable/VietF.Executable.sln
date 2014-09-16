@@ -5,6 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietF.Executable", "VietF.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietF.ExecutableProject", "VietF.Executable\VietF.ExecutableProject\VietF.ExecutableProject.csproj", "{36990682-3AF6-46E6-BD2B-3482C6A53648}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VietF.Common", "VietF.Common", "{B3A009FE-AFA2-4D12-947C-6E0E1946A4AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietF.Common", "..\..\Common\VietF.Common\VietF.Common.csproj", "{F96835A8-99BA-49AB-9AA9-B94901E78225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietF.Menu", "..\..\Menu\VietF.Menu\VietF.Menu.csproj", "{3C9F86D0-3DF3-4AA9-A288-2240C6430020}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,8 +25,19 @@ Global
 		{36990682-3AF6-46E6-BD2B-3482C6A53648}.Debug|x86.Build.0 = Debug|x86
 		{36990682-3AF6-46E6-BD2B-3482C6A53648}.Release|x86.ActiveCfg = Release|x86
 		{36990682-3AF6-46E6-BD2B-3482C6A53648}.Release|x86.Build.0 = Release|x86
+		{F96835A8-99BA-49AB-9AA9-B94901E78225}.Debug|x86.ActiveCfg = Debug|x86
+		{F96835A8-99BA-49AB-9AA9-B94901E78225}.Debug|x86.Build.0 = Debug|x86
+		{F96835A8-99BA-49AB-9AA9-B94901E78225}.Release|x86.ActiveCfg = Release|x86
+		{F96835A8-99BA-49AB-9AA9-B94901E78225}.Release|x86.Build.0 = Release|x86
+		{3C9F86D0-3DF3-4AA9-A288-2240C6430020}.Debug|x86.ActiveCfg = Debug|x86
+		{3C9F86D0-3DF3-4AA9-A288-2240C6430020}.Debug|x86.Build.0 = Debug|x86
+		{3C9F86D0-3DF3-4AA9-A288-2240C6430020}.Release|x86.ActiveCfg = Release|x86
+		{3C9F86D0-3DF3-4AA9-A288-2240C6430020}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F96835A8-99BA-49AB-9AA9-B94901E78225} = {B3A009FE-AFA2-4D12-947C-6E0E1946A4AF}
 	EndGlobalSection
 EndGlobal

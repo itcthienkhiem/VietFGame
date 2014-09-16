@@ -34,20 +34,20 @@ namespace VietF.ExecutableProject
                 .AddComponent(new ModelRenderer());
 
             EntityManager.Add(cube);
-
+            VietF.Menu.Menu menu = new Menu.Menu(this.EntityManager);
             // Create a 2D camera
-            var camera2D = new FixedCamera2D("Camera2D") { ClearFlags = ClearFlags.DepthAndStencil }; // Transparent background need this clearFlags.
-            EntityManager.Add(camera2D);
+            //var camera2D = new FixedCamera2D("Camera2D") { ClearFlags = ClearFlags.DepthAndStencil }; // Transparent background need this clearFlags.
+            //EntityManager.Add(camera2D);
 
-            // Draw a simple sprite
-            Entity sprite = new Entity()
-                .AddComponent(new Transform2D())
-                // Change this line for a custom assets "new Sprite("Content/MyTexture"))"
-                // Manage assets using the Resources.weproj link to open the Assets Exporter tool.
-                .AddComponent(new Sprite(StaticResources.DefaultTexture))
-                .AddComponent(new SpriteRenderer(DefaultLayers.Opaque));
+            //// Draw a simple sprite
+            //Entity sprite = new Entity()
+            //    .AddComponent(new Transform2D())
+            //    // Change this line for a custom assets "new Sprite("Content/MyTexture"))"
+            //    // Manage assets using the Resources.weproj link to open the Assets Exporter tool.
+            //    .AddComponent(new Sprite(StaticResources.DefaultTexture))
+            //    .AddComponent(new SpriteRenderer(DefaultLayers.Opaque));
 
-            EntityManager.Add(sprite);
+            //EntityManager.Add(sprite);
             #endregion
         }
 
